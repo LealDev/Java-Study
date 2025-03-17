@@ -20,4 +20,4 @@ fi
 echo "Compilação concluída!"
 
 # Executar o programa (se tiver em um pacote, ajuste o caminho)
-java -cp "$BIN" arquivo2
+java -cp "$BIN" Main

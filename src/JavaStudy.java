@@ -2,9 +2,9 @@ public class JavaStudy {
 
   private int id;
   private String name;
-  private String idade;
+  private int idade;
 
-  public JavaStudy(int id, String name, String idade) {
+  public JavaStudy(int id, String name, int idade) {
     this.id = id;
     this.name = name;
     this.idade = idade;
@@ -12,6 +12,10 @@ public class JavaStudy {
 
   public int getId() {
     return id;
+  }
+
+  public void setId(int id) {
+    this.id = id;
   }
 
   public String getName() {
@@ -22,11 +26,11 @@ public class JavaStudy {
     this.name = name; 
   }
 
-  public String getIdade() {
+  public int getIdade() {
     return idade;
   }
 
-  public void setIdade(String idade) {
+  public void setIdade(int idade) {
    this.idade = idade; 
   }
 
